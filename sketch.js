@@ -33,7 +33,7 @@ function setup() {
 	mango9=new Mango(1280,350,50,50);
 	mango10=new Mango(1090,350,50,50);
 
-	sling=new Fly(stone.body,{x:190,y:50});
+	sling=new Slingshot(stone.body,{x:190,y:50});
 
 
 	Engine.run(engine);
